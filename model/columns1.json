@@ -1,0 +1,1 @@
+{"data_columns": ["person id", "gender", "age", "sleep duration", "quality of sleep", "physical activity level", "stress level", "heart rate", "daily steps", "occupation_encoded", "bmi category_encoded", "bp_upper", "bp_lower"]}

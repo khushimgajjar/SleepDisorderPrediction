@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Disorder Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: lightcyan
+        }
+        h1 {
+            text-align: center;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #dc94cb;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        input[type="radio"] {
+            margin-right: 5px;
+        }
+        button {
+            background-color: #6086af;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+        #result {
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sleep Disorder Prediction</h1>
+    <form method="POST" action="/">
+
+        
+        <label for="PersonID">PersonID:</label>
+        <input type="number" id="personID" name="personID" mrequired><br><br>
+
+        <label for="blood-pressure-upper">Blood Pressure Upper:</label>
+        <input type="number" id="blood-pressure-upper" name="blood-pressure-upper" required><br><br>
+
+        <label for="blood-pressure-lower">Blood Pressure Lower:</label>
+        <input type="number" id="blood-pressure-lower" name="blood-pressure-lower" required><br><br>
+        
+        <label for="occupation">Occupation:</label>
+        <input type="number" id="occupation" name="occupation" required><br><br>
+       
+        
+        <label for="physical-activity">Physical Activity Level:</label>
+        <input type="number" id="physical-activity-level" name="physical-activity-level"  required><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="number" id="gender" name="gender"  required><br><br>
+        
+      
+        
+        <label for="quality-of-sleep">Quality of Sleep (0-10):</label>
+        <input type="number" id="quality-of-sleep" name="quality-of-sleep"  required><br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"  required><br><br>
+
+        
+        <label for="sleep-duration">Sleep Duration:</label>
+        <input type="number" id="sleep-duration" name="sleep-duration"  required><br><br>
+
+        
+        <label for="stress-level">Stress level:</label>
+        <input type="number" id="stress-level" name="stress-level"  required><br><br>
+
+        
+        <label for="heart-rate">Heart-rate:</label>
+        <input type="number" id="heart-rate" name="heart-rate"  required><br><br>
+
+        
+        <label for="daily-steps">Daily-steps:</label>
+        <input type="number" id="daily-steps" name="daily-steps"  required><br><br>
+
+        <label for="bmi">Body mass index:</label>
+        <input type="number" id="bmi" name="bmi" required><br><br>
+
+
+        
+        <button type="submit">Predict</button>
+    </form>
+    
+   
+</body>
+</html>
